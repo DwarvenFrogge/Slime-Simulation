@@ -17,13 +17,13 @@ MonoBehaviour:
   height: 1080
   numAgents: 250000
   spawnMode: 2
-  trailWeight: 5
-  decayRate: 0.2
-  diffuseRate: 3
+  trailWeight: 100
+  decayRate: 0.3
+  diffuseRate: 200
   speciesSettings:
-  - moveSpeed: 20
-    turnSpeed: 2
-    sensorAngleSpacing: 30
-    sensorOffsetDst: 35
+  - moveSpeed: 100
+    turnSpeed: 10
+    sensorAngleSpacing: 50
+    sensorOffsetDst: 25
     sensorSize: 1
-    colour: {r: 1, g: 1, b: 1, a: 0}
+    colour: {r: 1, g: 0.32348293, b: 0, a: 0}
